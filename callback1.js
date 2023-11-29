@@ -1,9 +1,13 @@
 function doubleArray(arr, callback) {
-    return callback(arr)
+    let newArr = []
+    for (let i = 0; i < arr.length; i++) {
+        newArr[i] = callback(arr[i]);
+    }
+    return newArr;
+
 }
 function doubleValue(num) {
-    return numbers.map(num => (num = num * 2))
-   
+    return num * 2
 }
 const numbers = [1, 2, 3, 4, 5];
 const doubledNumbers = doubleArray(numbers, doubleValue);
