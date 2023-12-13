@@ -1,7 +1,7 @@
-const user = { name: "John", age: 30 };
+const user = {name: "John", age: 30 };
 
 function fetchDataFromAPI(callback) {
-    let data = person
+    let data = user
     setTimeout(() => {
         callback(data);
     }, 2000)
