@@ -1,0 +1,41 @@
+body {
+  color: lightslategray;
+}
+
+blockquote {
+  background-color: rgba(0, 12, 24, 0.05);
+}
+
+a {
+  border: 1px dashed red;
+}
+
+em {
+  color: darkred;
+}
+
+.variant-em {
+  background-color: greenyellow;
+  font-weight: bold;
+  color: black;
+}
+
+ul {
+  background-color: unset;
+}
+
+ul li {
+  padding: 16px;
+}
+
+.link2 a {
+  color: initial;
+}
+
+.link3 a {
+  color: default;
+}
+
+.content1 {
+  border: 2px, solid, black;
+}
