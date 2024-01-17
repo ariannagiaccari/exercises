@@ -1,0 +1,29 @@
+@import "style.css";
+
+body{
+    display: flex;  
+}
+
+#orange {
+    flex: 3;
+}
+
+#yellow {
+    order: 1;
+}
+
+#green {
+    order: 3;
+
+}
+#red {
+    order: 2;
+}
+
+#blue {
+    order: 5;
+}
+
+#orange {
+    order: 4;
+}
